@@ -5,11 +5,7 @@ export const HeavyJobComponent = ({ num ,numObj}) => {
     useEffect(() => {
         console.log("HeavyJobComponent  랜더링 ");
 
-      },[]);
-
-
-
-
+      } );
   useEffect(() => {
     console.log("num 바뀌면 heavyPlus가 실행되요 ");
     heavyPlus();
